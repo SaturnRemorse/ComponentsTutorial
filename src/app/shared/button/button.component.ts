@@ -9,7 +9,6 @@ import { Component , Input} from '@angular/core';
 })
 export class ButtonComponent {
 
-  @Input({required: true}) text!: string;
-  @Input({required: true}) sign!: string;
+
 
 }

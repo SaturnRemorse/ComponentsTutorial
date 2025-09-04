@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'button[appButton]',
@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
 
-  @Input({required: true}) buttonText!: string;
-  @Input({required: true}) buttonSymbol!: string;
+  // @Input({required: true}) buttonText!: string;
+  // @Input({required: true}) buttonSymbol!: string;
  
 }

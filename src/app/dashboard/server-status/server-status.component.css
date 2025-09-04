@@ -1,9 +1,9 @@
-:host {
+.status {
   display: block;
   width: 15rem;
 }
 
-:host p:first-of-type {
+.status p:first-of-type {
   font-weight: bold;
   animation: pulse 2s infinite;
   margin: 0 0 0.5rem 0;
